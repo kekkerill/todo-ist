@@ -1,0 +1,133 @@
+.content {
+  width: calc(100% - 120px);
+  height: calc(100% - 120px);
+  padding: 60px;
+  .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    .title {
+      margin-right: 15px;
+      &--green {
+        color: #42b883;
+      }
+      &--blue {
+        color: #64c4ed;
+      }
+      &--pink {
+        color: #ffbbcc;
+      }
+      &--lime {
+        color: #b6e6bd;
+      }
+      &--purple {
+        color: #c355f5;
+      }
+      &--black {
+        color: black;
+      }
+      &--red {
+        color: #ff6464;
+      }
+      &--grey {
+        color: #c9d1d3;
+      }
+    }
+    &:hover {
+      img {
+        opacity: 0.5;
+      }
+    }
+    img {
+      opacity: 0;
+      cursor: pointer;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+  .line {
+    width: 100%;
+    border-bottom: 2px solid #f2f2f2;
+    margin-bottom: 20px;
+  }
+  .tasks {
+    margin-bottom: 15px;
+    .emptyFolder {
+      color: #c9d1d3;
+      font-size: 32px;
+    }
+    .task {
+      margin-bottom: 15px;
+      display: flex;
+
+      input {
+        border: 0;
+        width: 100%;
+      }
+      .checkbox {
+        margin-right: 15px;
+        input {
+          display: none;
+        }
+        label {
+          cursor: pointer;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+          border: 2px solid #e8e8e8;
+          &:hover {
+            background: #e8e8e8;
+            path {
+              stroke: #b3b3b3;
+            }
+          }
+        }
+        input:checked + label {
+          border: 2px solid transparent;
+          background-color: #4dd599;
+          path {
+            stroke: #fff;
+          }
+        }
+      }
+      .deleteTask {
+        cursor: pointer;
+        opacity: 0.6;
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  .addTask {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+  }
+  .newTaskInput {
+    padding: 8px;
+    width: 50%;
+    height: 25px;
+    border: 1px solid #797777;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  .newTaskBtn {
+    cursor: pointer;
+    justify-content: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    border: 0;
+    border-radius: 4px;
+    width: 30%;
+    height: 35px;
+    padding: 8px;
+    background: #4dd599;
+  }
+}

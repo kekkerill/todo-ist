@@ -1,0 +1,177 @@
+{
+  "lists": [
+    {
+      "id": "2",
+      "name": "Фронтенд",
+      "colorId": 4
+    },
+    {
+      "id": "3",
+      "name": "Фильмы",
+      "colorId": 3
+    },
+    {
+      "id": "3527",
+      "name": "Учёба",
+      "colorId": 4
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1",
+      "listId": "2",
+      "text": "Изучить JavaScript",
+      "completed": true
+    },
+    {
+      "id": "4401",
+      "text": "123",
+      "listId": null,
+      "completed": true
+    },
+    {
+      "id": "b816",
+      "text": "Властелин колец",
+      "listId": "3",
+      "completed": false
+    },
+    {
+      "id": "0d74",
+      "text": "Звёздные войны",
+      "listId": "3",
+      "completed": true
+    },
+    {
+      "id": "1af8",
+      "text": "йцу",
+      "listId": "5316",
+      "completed": false
+    },
+    {
+      "id": "e3cb",
+      "text": "Техническое обслуживание и ремонт вычислительных машин",
+      "listId": "3527",
+      "completed": false
+    },
+    {
+      "id": "f644",
+      "text": "Интернет технологии",
+      "listId": "3527",
+      "completed": false
+    },
+    {
+      "id": "88b0",
+      "text": "Архитектура ЭВМ",
+      "listId": "3527",
+      "completed": true
+    },
+    {
+      "id": "926e",
+      "text": "Разработка мобильных приложений",
+      "listId": "3527",
+      "completed": false
+    },
+    {
+      "id": "7db0",
+      "text": "UseState",
+      "listId": "2",
+      "completed": true
+    },
+    {
+      "id": "faf9",
+      "text": "UseEffect",
+      "listId": "2",
+      "completed": true
+    },
+    {
+      "id": "e683",
+      "text": "Redux",
+      "listId": "2",
+      "completed": false
+    },
+    {
+      "id": "b445",
+      "text": "Монтаж и эксплуатация компьютерных сетей",
+      "listId": "3527",
+      "completed": false
+    },
+    {
+      "id": "3e4c",
+      "text": "Доп. главы информатики",
+      "listId": "3527",
+      "completed": false
+    },
+    {
+      "id": "829d",
+      "text": "Доп. возможности MatLab",
+      "listId": "3527",
+      "completed": true
+    },
+    {
+      "id": "bc2b",
+      "text": "Заводной апельсин",
+      "listId": "3",
+      "completed": false
+    },
+    {
+      "id": "cf0f",
+      "text": "Головоломка 2",
+      "listId": "3",
+      "completed": true
+    },
+    {
+      "id": "7865",
+      "text": "Гадкий я 4",
+      "listId": "3",
+      "completed": false
+    },
+    {
+      "id": "14fd",
+      "text": "лёня молодец",
+      "listId": null,
+      "completed": true
+    }
+  ],
+  "colors": [
+    {
+      "id": "1",
+      "hex": "#C9D1D3",
+      "name": "grey"
+    },
+    {
+      "id": "2",
+      "hex": "#42B883",
+      "name": "green"
+    },
+    {
+      "id": "3",
+      "hex": "#64C4ED",
+      "name": "blue"
+    },
+    {
+      "id": "4",
+      "hex": "#FFBBCC",
+      "name": "pink"
+    },
+    {
+      "id": "5",
+      "hex": "#B6E6BD",
+      "name": "lime"
+    },
+    {
+      "id": "6",
+      "hex": "#C355F5",
+      "name": "purple"
+    },
+    {
+      "id": "7",
+      "hex": "#110133",
+      "name": "black"
+    },
+    {
+      "id": "8",
+      "hex": "#FF6464",
+      "name": "red"
+    }
+  ]
+}
